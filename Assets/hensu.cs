@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class hensu : MonoBehaviour
 {
+    int a = 10;
     // Start is called before the first frame update
-    void Start()
+    public void Proc()
     {
-        int a=10;
+        
         float fw=3.14f;
         string str="‚±‚ñ‚É‚¿‚Í";
         bool b1=true;
@@ -18,6 +19,10 @@ public class hensu : MonoBehaviour
         Debug.Log(b1);
     }
 
+    public void proc2()
+    {
+        Debug.Log(a);
+    }
     // Update is called once per frame
     void Update()
     {
