@@ -5,7 +5,21 @@ using UnityEngine;
 public class hensu : MonoBehaviour
 {
     int a = 10;
-    // Start is called before the first frame update
+    int vx = 10;
+
+    public void Ensyu71()
+    {
+        int vx = 5;
+        Debug.Log(vx);
+
+        vx = 10;
+        Debug.Log(vx);
+    }
+    public void Ensyu72()
+    {
+        Debug.Log(vx);
+    }
+        // Start is called before the first frame update
     public void Proc()
     {
         
